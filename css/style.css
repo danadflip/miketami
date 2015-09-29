@@ -1,0 +1,191 @@
+  /* ========================= */
+  /*  Body */
+  /* ========================= */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: navy;
+}
+
+hr {
+    max-width: 250px;
+    border-top: 1px solid gray;
+}
+
+p{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: justify;
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+h1{
+  font-family: 'Bree Serif', serif;
+  display: inline-block;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.74);
+}
+h2{
+  font-family: 'Pinyon Script', cursive;
+  display: inline-block;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.74);
+}
+h3{
+    font-family: 'Pinyon Script', cursive;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+a:hover{
+  text-decoration: none;
+  color:white;
+}
+
+  /* ========================= */
+  /*  Headers */
+  /* ========================= */
+
+.about_header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/about_header.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.proposal_header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/proposal_header.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.wedding_header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/wedding_header.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+
+
+.page_title {
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+    color:white;
+}
+
+.page_title h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+  /* ========================= */
+  /*  Navbar */
+  /* ========================= */
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar{
+  background-color: transparent;
+  background:transparent;
+  border-color: transparent;
+  /*padding: 0px 50px;*/
+}
+
+
+/*about*/
+
+.about {
+    padding: 50px 0;
+    background-color: white;
+}
+
+/*font size for computers*/
+/*@media screen and (min-width: 768px) {
+  p {
+    font-size:18px;
+    }
+}*/
+
+
+.video {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ========================= */
+  /*  Gallery */
+  /* ========================= */
+
+.gallery_picture {
+    margin-bottom: 30px;
+}
+
+/*.img-gallery {
+    margin: 0 auto;
+}*/
+
+.gallery_picture:hover {
+    opacity: 0.8;
+}
+
+@media(min-width:768px) {
+    .gallery_picture {
+        max-height: 100px;
+        margin-bottom: 150px;
+    }
+}
+
+@media(max-width:768px) {
+    .gallery_picture {
+        margin-bottom: 300px;
+    }
+}
+
+
+  /* ========================= */
+  /*  Footer */
+  /* ========================= */
+footer {
+    padding: 100px 0;
+}
