@@ -3888,7 +3888,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
   /*padding: 10px 20px;*/
-  padding: 15px 2em;
+  /*padding: 15px 2em;*/
   font-size: 20px;
 }
 .nav > li > a:hover,
