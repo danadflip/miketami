@@ -51,6 +51,13 @@ a:hover{
   border-bottom: solid 3px navy;
 }
 
+.about_list{
+  font-size: 19px;
+  padding-top: 20px;
+  display: inline-block;
+  text-align: justify;
+}
+
 #date{
   font-size: 22px;
   text-align: center;
