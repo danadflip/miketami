@@ -3884,6 +3884,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
   padding: 15px 15px 15px 15px;
+  background-color: #F6F6F6;
 }
 .nav > li > a {
   position: relative;
@@ -4073,8 +4074,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
+  /*margin-bottom: 20px;*/
+  /*border: 1px solid transparent;*/
 }
 @media (min-width: 768px) {
   .navbar {
