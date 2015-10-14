@@ -113,8 +113,30 @@ a:hover{
     -o-background-size: cover;
 }
 
+.registry_header{
+      display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/thailand.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
 
+.guest_header{
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/slider8-min.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
 .page_title {
     display: table-cell;
