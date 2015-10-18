@@ -61,6 +61,20 @@ a:hover{
   border-bottom: solid 3px navy;
 }
 
+.hotels{
+  text-decoration: underline;
+  color: gray;
+}
+
+.hotels:hover{
+  text-decoration: none;
+}
+
+.hotel_list{
+  list-style-type: none;
+  font-size: 20px;
+}
+
 .about_list{
   font-size: 19px;
   padding-top: 20px;
